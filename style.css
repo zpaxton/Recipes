@@ -1,0 +1,87 @@
+/* select the body tag to change the font-family */
+
+ body{
+  font-family: sans-serif;
+}
+/* select all the section tags to change the color to saddlebrown */
+
+ section{
+  color: saddlebrown;
+}
+
+/* select the h2 and h3 tags to change the color to chocolate */
+h2 {
+  color:pink;
+}
+ 
+ h3{
+  color: blueviolet;
+}
+h1 {
+  color: red;
+}
+/* select the h2 with the id of tagline to change the color to brown */
+
+ h2[id="tagline"]{
+  color: orange;
+}
+
+
+/* select the element with the class rosy to make the text  bisque colored */
+
+ .rosy{
+  color: bisque;
+}
+
+/* select only the list items inside the element with the class of mojito and make them lime colored */
+
+article[class = "mojito"] > ul {
+  color: lime;
+}
+
+/* select the direct child h3 the element with the class pear-rose to change the color to rosybrown */
+
+article[class = "pear-rose"] > h3 {
+  color: rosybrown;
+}
+
+/* when hovering over any h2 but not the one with an id of tagline, make the color goldenrod */
+
+ h2:not([id = "tagline"]):hover {
+  color: goldenrod;
+}
+
+/* in each list alternate each color of the even list items to be sandybrown */
+
+ li:nth-child(even){
+  color: sandybrown;
+}
+
+/* select all the elements and align the text to center */
+
+ html{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none
+  
+}
+
+/* BONUS */
+
+/* change the color of each h2 drink name to something you like */
+/* https://htmlcolorcodes.com/color-names/ */
+
+
+/* BONUS BONUS */
+/* go into index.html
+make a form called 'subscribe to my newsletter'
+add a text input for name, email
+make an input for number for the number of times the subscriber would like to be emailed */
+
+/* using the attribute selector, change the color of the input in the text fields
+using the attribute selector, change the color of the input in the number field to a different color */
+
+/* BONUS BONUS BONUS*/
+/* Add your own colors and styles */
